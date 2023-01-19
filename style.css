@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.gon{
+    width: 100px;
+    height: 90px;
+}
+.pass {
+    width: 100px;
+    height: 120px;
+    margin-left: 100px;
+}
+.grid{
+    display: grid;
+    /* gap: 4rem; */
+}
+
+.grid-two-column {
+    grid-template-columns: 1fr 1fr;
+}
+.grid-three-column {
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.grid-six-column  {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+}
+
+.grid-five-column  {
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+}
+
+.grid-four-column {
+    grid-template-columns: 1fr 1fr 3fr;
+}
+.nepal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.one {
+    font-size: 10px;
+}
+.two {
+    font-size: 14px;
+    margin-top: -15px;
+}
+.three {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -14px;
+}
+
+.last {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+.four {
+    font-size: 14px;
+    margin-top: -10px;
+}
+.five {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -10px;
+    text-decoration: underline;
+}
+.para {
+    font-size: 14px;
+    line-height: 1.2;
+}
+.box {
+    border: 5px  solid #F79646!important;
+}
+
+
+.new {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+  }
+
+input {
+    width: 60px;
+}
+.sen {
+    display: flex;
+}
+.under {
+    font-weight: 600;
+    text-decoration: underline;
+}
+.above {
+    line-height: 1;
+}
+label{
+    font-weight: unset!important;
+}
